@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/TradingDB
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
